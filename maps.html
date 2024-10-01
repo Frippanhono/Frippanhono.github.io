@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/map.css" />
+    <link rel="stylesheet" href="style/main-style.css" />
+    <title>Nyhetsbrev</title>
+    <!--länk till font/typsnitt-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--länk till copyright symbol-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <header>
+      <!--Namnet på sidan och en fiskmås siluett med inline-style-->
+      <h1 id="logoName">Västkustens paradis</h1>
+      <img src="image/fiskmås.jpg" alt="seagul" style="height: 5em" />
+      <!--Sociala medier knappar-->
+      <div class="container-logo">
+        <div id="logo">
+          <a
+            href="https://www.facebook.com/ockerokommunofficiell/?locale=sv_SE"
+            class="fa fa-facebook"
+          ></a>
+          <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+          <a
+            href="https://www.google.se/search?q=%C3%B6cker%C3%B6+kommun&sca_esv=8137413b400421e9&sca_upv=1&hl=sv&sxsrf=ADLYWILKE94LT1Pd2_z_t3FdRShbMiBVqQ%3A1726135777678&source=hp&ei=4b3iZpWBJ5iJ7NYP54vakAg&iflsig=AL9hbdgAAAAAZuLL8b0J67CaQDl8qrXIQwKh_zWdEOrW&ved=0ahUKEwjV9fDulL2IAxWYBNsEHeeFFoIQ4dUDCA8&uact=5&oq=%C3%B6cker%C3%B6+kommun&gs_lp=Egdnd3Mtd2l6Ig_DtmNrZXLDtiBrb21tdW4yChAuGIAEGCcYigUyChAjGIAEGCcYigUyChAjGIAEGCcYigUyEBAuGIAEGLEDGEMYgwEYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyCxAuGIAEGMcBGK8BMgUQABiABDIFEAAYgARI9CZQ-QVYhyNwAXgAkAEAmAGWAaAB9wmqAQM4LjW4AQPIAQD4AQGYAg6gAr0KqAIKwgINEC4Y0QMYxwEYJxjqAsICBxAuGCcY6gLCAgcQIxgnGOoCwgINEC4YxwEYJxjqAhivAcICEBAuGIAEGMcBGCcYigUYrwHCAgoQLhiABBhDGIoFwgILEAAYgAQYsQMYgwHCAggQLhiABBixA8ICBRAuGIAEmAMHkgcDOC42oAfi2wE&sclient=gws-wiz"
+            class="fa fa-google"
+          ></a>
+          <a
+            href="https://www.youtube.com/results?search_query=%C3%B6cker%C3%B6+kommun"
+            class="fa fa-youtube"
+          ></a>
+        </div>
+      </div>
+    </header>
+    <!--Öarnas namn som utgör Öckerö kommun-->
+    <nav id="top">
+      <div id="topText">
+        <a id="islandTags" href="rörö.html">Rörö</a> -
+        <a id="islandTags" href="hyppeln.html">Hyppeln</a> -
+        <a id="islandTags" href="knippla.html">Knippla</a> -
+        <a id="islandTags" href="björkö.html">Björkö</a> -
+        <a id="islandTags" href="hälsö.html">Hälsö</a> -
+        <a id="islandTags" href="öckerö.html">Öckerö</a> -
+        <a id="islandTags" href="kalvsund.html">Kalvsund</a> -
+        <a id="islandTags" href="hönö.html">Hönö</a> -
+        <a id="islandTags" href="grötö.html">Grötö</a> -
+        <a id="islandTags" href="fotö.html">Fotö</a>
+      </div>
+    </nav>
+
+    <article class="islandName">Karta</article>
+    <!--formuläret-->
+    <div class="islandContainer">
+      <div id="islandChild">
+        <div class="islandPage">
+          <section class="flex-button">
+            <img id="map" src="image/kommunkartan.png" alt="karta" />
+          </section>
+        </div>
+      </div>
+
+      <!--kolumn med sök ruta-->
+      <nav id="search">
+        <a id="decoration" href="index.html">Hem</a>
+        <a id="decoration" href="newsletter.html">Nyhetsbrev</a>
+        <a id="decoration" href="contact.html">Kontakt</a>
+        <a id="decoration" href="maps.html">Karta</a> <br /><br />
+        <search id="searchBar">
+          <form action="/action_page.php" target="_blank">
+            <input type="text" id="fsearch" name="fsearch" placeholder="" />
+            <input id="searchButton" type="submit" value="  SÖK  " />
+          </form>
+        </search>
+      </nav>
+    </div>
+
+    <footer>
+      <address id="adress">
+        Fredrica Alfredsson<br />
+        Nygatan 1<br />
+        123 45 HÖNÖ<br />
+        Telefon: 0123-45 67 89<br />
+      </address>
+      <div class="copyright">
+        <span class="material-symbols-outlined"> copyright </span>
+        Frippan
+      </div>
+      <div class="socmediaFooter">
+        <a
+          href="https://www.facebook.com/ockerokommunofficiell/?locale=sv_SE"
+          class="fa fa-facebook"
+        ></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        <a
+          href="https://www.google.se/search?q=%C3%B6cker%C3%B6+kommun&sca_esv=8137413b400421e9&sca_upv=1&hl=sv&sxsrf=ADLYWILKE94LT1Pd2_z_t3FdRShbMiBVqQ%3A1726135777678&source=hp&ei=4b3iZpWBJ5iJ7NYP54vakAg&iflsig=AL9hbdgAAAAAZuLL8b0J67CaQDl8qrXIQwKh_zWdEOrW&ved=0ahUKEwjV9fDulL2IAxWYBNsEHeeFFoIQ4dUDCA8&uact=5&oq=%C3%B6cker%C3%B6+kommun&gs_lp=Egdnd3Mtd2l6Ig_DtmNrZXLDtiBrb21tdW4yChAuGIAEGCcYigUyChAjGIAEGCcYigUyChAjGIAEGCcYigUyEBAuGIAEGLEDGEMYgwEYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyCxAuGIAEGMcBGK8BMgUQABiABDIFEAAYgARI9CZQ-QVYhyNwAXgAkAEAmAGWAaAB9wmqAQM4LjW4AQPIAQD4AQGYAg6gAr0KqAIKwgINEC4Y0QMYxwEYJxjqAsICBxAuGCcY6gLCAgcQIxgnGOoCwgINEC4YxwEYJxjqAhivAcICEBAuGIAEGMcBGCcYigUYrwHCAgoQLhiABBhDGIoFwgILEAAYgAQYsQMYgwHCAggQLhiABBixA8ICBRAuGIAEmAMHkgcDOC42oAfi2wE&sclient=gws-wiz"
+          class="fa fa-google"
+        ></a>
+        <a
+          href="https://www.youtube.com/results?search_query=%C3%B6cker%C3%B6+kommun"
+          class="fa fa-youtube"
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
