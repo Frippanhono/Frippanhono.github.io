@@ -111,6 +111,11 @@ header {
   height: 100%;
 }
 
+.search-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
 #island-font {
   padding: 30px;
   font-size: 30px;
@@ -327,11 +332,19 @@ footer {
     width: 500px;
     padding: 10px;
   }
-  .container-island {
-    flex-wrap: wrap;
-  }
+
   .container-logo {
     display: none;
+  }
+  .container {
+    flex-direction: column-reverse;
+  }
+  #search {
+    height: 125px;
+    width: fit-content;
+  }
+  .container-island {
+    flex-direction: column;
   }
 }
 
@@ -352,12 +365,7 @@ footer {
     font-size: 30px;
     border-bottom: 2px dotted black;
   }
-  #search {
-    width: 100px;
-  }
-  #fsearch {
-    width: 85px;
-  }
+
   .infoBox {
     font-size: 15px;
   }
@@ -366,21 +374,28 @@ footer {
   }
   .copyright {
     font-size: 10px;
+    align-items: center;
+    padding: 3px;
   }
   .material-symbols-outlined {
-    font-size: 10px;
+    font-size: 14px;
   }
   .socmediaFooter {
-    flex-wrap: wrap;
+    padding: 3px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #search {
-    display: none;
-  }
   .infoBox {
     font-size: 10px;
+  }
+  #adress {
+    font-size: 10px;
+    margin: 0;
+    padding: 3px;
+  }
+  .material-symbols-outlined {
+    font-size: 14px;
   }
 }
 
@@ -388,9 +403,6 @@ footer {
   #picture {
     width: 300px;
     padding: 10px;
-  }
-  #adress {
-    margin-top: 22px;
   }
   .fa {
     padding: 3px;
