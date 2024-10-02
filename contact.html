@@ -56,20 +56,20 @@
         <a id="islandTags" href="grötö.html">Grötö</a> -
         <a id="islandTags" href="fotö.html">Fotö</a>
       </div>
-    </nav>
 
-    <article class="islandName">Kontakta oss</article>
-    <div class="islandContainer2">
+      <article class="islandName">Kontakta oss</article>
+    </nav>
+    <div class="islandContainer2Contact">
       <div id="islandChild">
         <div class="islandPage">
-          <section class="flex-button">
-            <h2>Signa upp dig för att få de senaste nyheterna</h2>
-            <form>
-              <label for="fname">Namn:</label><br />
+          <section class="flex-buttonContact">
+            <h2 id="signText">Lämna meddelande</h2>
+            <form action="/action_page.php">
+              <label id="namn" for="fname">Namn:</label><br />
               <input type="text" id="fname" name="fname" value="" /><br />
-              <label for="lname">Email:</label><br />
+              <label id="epost" for="lname">Email:</label><br />
               <input type="email" id="mail" name="mail" value="" /><br />
-              <label for="number">Telefonnummer:</label><br />
+              <label id="namn" for="number">Telefonnummer:</label><br />
               <input
                 type="number"
                 id="number"
@@ -84,11 +84,11 @@
       </div>
 
       <!--kolumn med sök ruta-->
-      <nav id="search">
-        <a id="decoration" href="index.html">Hem</a>
-        <a id="decoration" href="newsletter.html">Nyhetsbrev</a>
-        <a id="decoration" href="contact.html">Kontakt</a>
-        <a id="decoration" href="maps.html">Karta</a> <br /><br />
+      <nav id="searchContact">
+        <a id="decorationContact" href="index.html">Hem</a>
+        <a id="decorationContact" href="newsletter.html">Nyhetsbrev</a>
+        <a id="decorationContact" href="contact.html">Kontakt</a>
+        <a id="decorationContact" href="maps.html">Karta</a>
         <search id="searchBar">
           <form action="/action_page.php" target="_blank">
             <input type="text" id="fsearch" name="fsearch" placeholder="" />
@@ -99,12 +99,12 @@
     </div>
 
     <footer>
-      <address id="adress">
+      <article id="adress">
         Fredrica Alfredsson<br />
         Nygatan 1<br />
         123 45 HÖNÖ<br />
         Telefon: 0123-45 67 89<br />
-      </address>
+      </article>
       <div class="copyright">
         <span class="material-symbols-outlined"> copyright </span>
         Frippan

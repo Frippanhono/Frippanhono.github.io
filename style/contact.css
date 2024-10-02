@@ -92,9 +92,14 @@ header {
   border-bottom: 2px dotted black;
 }
 
+.flex-buttonContact {
+  display: flex;
+  flex-direction: column;
+}
+
 /*Info och sök ruta*/
 
-#search {
+#searchContact {
   display: flex;
   flex-direction: column;
   border: 2px solid #6e9cc1;
@@ -104,12 +109,60 @@ header {
   background-color: #6e9cc1;
 }
 
-.decoration {
+#decorationContact {
   color: white;
   text-decoration: none;
+}
+
+#decorationContact:visited {
+  color: #d5dbe0;
+}
+#decorationContact:hover {
+  color: #125688;
 }
 
 #fsearch {
   border-radius: 5px;
   border: none;
+}
+
+@media screen and (max-width: 767px) {
+  #signText {
+    font-size: 19px;
+  }
+
+  #namn {
+    font-size: 13px;
+  }
+
+  #epost {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .islandContainer2Contact {
+    display: flex;
+    height: 497px;
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  #decorationContact {
+    font-size: 13px;
+  }
+
+  #signText {
+    font-size: 15px;
+  }
+
+  #searchContact {
+    height: 110px;
+    width: fit-content;
+  }
+  .flex-buttonContact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
 }

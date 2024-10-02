@@ -73,17 +73,6 @@ header {
   margin: 3px;
 }
 
-/*Öarna som utgör öckerö kommun*/
-#top {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-}
-#topText {
-  text-align: center;
-  padding: 10px;
-}
-
 /*Nyhetsbrev font*/
 .islandName {
   padding: 10px;
@@ -93,7 +82,7 @@ header {
 }
 
 /*signa upp dig för att få de senaste nyheterna - lådan*/
-.islandContainer {
+.islandContainer2 {
   display: flex;
   height: 100%;
   width: 100%;
@@ -128,7 +117,7 @@ header {
 
 /*Info och sök ruta*/
 
-#search {
+#searchNewsletter {
   display: flex;
   flex-direction: column;
   border: 2px solid #6e9cc1;
@@ -138,12 +127,55 @@ header {
   background-color: #6e9cc1;
 }
 
-.decoration {
+#decorationNewsletter {
   color: white;
   text-decoration: none;
+}
+
+#decorationNewsletter:visited {
+  color: #d5dbe0;
+}
+#decorationNewsletter:hover {
+  color: #125688;
 }
 
 #fsearch {
   border-radius: 5px;
   border: none;
+}
+
+@media screen and (max-width: 767px) {
+  #signText {
+    font-size: 19px;
+  }
+
+  #namn {
+    font-size: 13px;
+  }
+
+  #epost {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .islandContainer2 {
+    display: flex;
+    height: 435px;
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  #decorationNewsletter {
+    font-size: 13px;
+  }
+
+  #signText {
+    font-size: 15px;
+  }
+
+  #searchNewsletter {
+    height: 110px;
+    width: fit-content;
+  }
 }

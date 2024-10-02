@@ -55,20 +55,21 @@
         <a id="islandTags" href="grötö.html">Grötö</a> -
         <a id="islandTags" href="fotö.html">Fotö</a>
       </div>
-    </nav>
 
-    <article class="islandName">Nyhetsbrev</article>
+      <article class="islandName">Nyhetsbrev</article>
+    </nav>
     <!--formuläret-->
     <div class="islandContainer2">
       <div id="islandChild">
         <div class="islandPage">
           <section class="flex-button">
-            <h2>Signa upp dig för att få de senaste nyheterna</h2>
+            <h2 id="signText">Signa upp dig för att få de senaste nyheterna</h2>
             <form action="/action_page.php">
-              <label for="fname">Namn:</label><br />
+              <label id="namn" for="fname">Namn:</label><br />
               <input type="text" id="fname" name="fname" /><br />
-              <label for="epost">Email:</label><br />
-              <input type="email" id="epost" name="epost" /><br /><br />
+              <label id="epost" for="epost">Email:</label><br />
+              <input type="email" id="epost" name="epost" /><br />
+              <br />
               <button
                 type="button"
                 onclick="alert('Tack du är ny registrerad för nyhetsbrev!')"
@@ -81,11 +82,11 @@
       </div>
 
       <!--kolumn med sök ruta-->
-      <nav id="search">
-        <a id="decoration" href="index.html">Hem</a>
-        <a id="decoration" href="newsletter.html">Nyhetsbrev</a>
-        <a id="decoration" href="contact.html">Kontakt</a>
-        <a id="decoration" href="maps.html">Karta</a> <br /><br />
+      <nav id="searchNewsletter">
+        <a id="decorationNewsletter" href="index.html">Hem</a>
+        <a id="decorationNewsletter" href="newsletter.html">Nyhetsbrev</a>
+        <a id="decorationNewsletter" href="contact.html">Kontakt</a>
+        <a id="decorationNewsletter" href="maps.html">Karta</a>
         <search id="searchBar">
           <form action="/action_page.php" target="_blank">
             <input type="text" id="fsearch" name="fsearch" placeholder="" />
@@ -96,12 +97,12 @@
     </div>
 
     <footer>
-      <address id="adress">
-        Fredrica Alfredsson<br />
-        Nygatan 1<br />
-        123 45 HÖNÖ<br />
-        Telefon: 0123-45 67 89<br />
-      </address>
+      <article id="adress">
+        Fredrica Alfredsson <br />
+        Nygatan 1 <br />
+        123 45 HÖNÖ <br />
+        Telefon: 0123-45 67 89 <br />
+      </article>
       <div class="copyright">
         <span class="material-symbols-outlined"> copyright </span>
         Frippan
