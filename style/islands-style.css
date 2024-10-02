@@ -257,3 +257,18 @@ header {
     margin-left: 20px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  #bigPicture {
+    width: 250px;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  #smallPicture {
+    width: 250px;
+    height: fit-content;
+    margin-left: 20px;
+    padding: 10px;
+  }
+}

@@ -421,6 +421,10 @@ footer {
     font-size: 10px;
   }
 
+  #infoText {
+    font-size: 14px;
+  }
+
   #logoName {
     font-size: 20px;
   }
@@ -450,7 +454,58 @@ footer {
   }
 
   #search {
+    height: fit-content;
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #logoName {
+    font-size: 16px;
+  }
+
+  #picture {
+    width: 200px;
+    padding: 10px;
+  }
+  .infoBox {
+    font-size: 10px;
+  }
+
+  #infoText {
+    font-size: 12px;
+  }
+
+  .islandName {
+    font-size: 20px;
+  }
+  #button-decoration {
+    font-size: 10px;
+  }
+
+  .socmediaFooter {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #adress {
+    align-content: center;
+  }
+
+  #goTopButton {
+    font-size: 10px;
+  }
+
+  #decoration {
+    font-size: 13px;
+  }
+
+  #search {
     height: 110px;
     width: fit-content;
+  }
+
+  #fsearch {
+    width: 70px;
   }
 }
