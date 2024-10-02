@@ -73,6 +73,10 @@ header {
   margin: 3px;
 }
 
+.islandContainer2Contact {
+  display: flex;
+}
+
 /*Öarna som utgör öckerö kommun*/
 #top {
   display: flex;
@@ -163,6 +167,5 @@ header {
   .flex-buttonContact {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
   }
 }

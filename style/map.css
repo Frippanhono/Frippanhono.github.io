@@ -203,3 +203,9 @@ header {
     width: 280px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  #map {
+    margin-left: 0px;
+  }
+}

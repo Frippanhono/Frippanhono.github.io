@@ -73,6 +73,7 @@ header {
   color: white;
   margin: 3px;
 }
+
 /*Öarna som utgör öckerö kommun*/
 #top {
   display: flex;
@@ -161,7 +162,6 @@ header {
 }
 
 /*Info och sök ruta*/
-
 #search {
   display: flex;
   flex-direction: column;
@@ -171,6 +171,11 @@ header {
   padding: 15px;
   background-color: #6e9cc1;
   height: 229px;
+}
+
+#fsearch {
+  border-radius: 5px;
+  border: none;
 }
 
 #searchBar {
@@ -254,7 +259,7 @@ footer {
   border: 1px solid rgb(126, 126, 126);
   width: 100%;
 }
-/*footer adress fält*/
+
 #adress {
   flex: 2;
   text-decoration: none;
@@ -277,13 +282,6 @@ footer {
   justify-content: right;
   align-items: end;
   padding: 30px;
-}
-
-/*information text över footer på alla inlägg sidor*/
-#infoIsland {
-  padding: 70px;
-  text-align: center;
-  font-size: 20px;
 }
 
 /*copyright symbol i footer*/

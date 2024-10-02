@@ -2,94 +2,7 @@
   border: 1px solid black;
 }*/
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
-
-/*vill ha samma typsnitt/font i hela dokumentet*/
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-}
-
-body {
-  height: 100%;
-}
-
-header {
-  height: 100px;
-  display: flex;
-}
-/*sidans logotype-Namn style*/
-#logoName {
-  margin: 20px;
-  font-size: 40px;
-  color: rgb(40, 98, 148);
-}
-
-/*sociala medier knapparna utseende*/
-.container-logo {
-  display: flex;
-  flex: 1;
-}
-
-#logo {
-  padding: 30px;
-}
-
-.fa {
-  padding: 10px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 30%;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-  margin: 3px;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-  margin: 3px;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-  margin: 3px;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-  margin: 3px;
-}
-
-/*Öarna som utgör öckerö kommun*/
-#top {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-}
-#topText {
-  text-align: center;
-  padding: 10px;
-}
-
 /*container för infosidorna för öarna*/
-.islandName {
-  padding: 10px;
-  text-align: center;
-  font-size: 50px;
-  border-bottom: 2px dotted black;
-}
 
 .islandContainer1 {
   display: flex;
@@ -120,6 +33,7 @@ header {
   display: flex;
   flex-direction: column;
 }
+
 #islandText1 {
   margin: 5px;
 }
@@ -141,28 +55,6 @@ header {
   width: 210px;
   height: fit-content;
   margin-left: 40px;
-}
-
-/*Info och sök ruta*/
-
-#search {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid #6e9cc1;
-  border-radius: 15px;
-  margin: 20px;
-  padding: 20px;
-  background-color: #6e9cc1;
-}
-
-#decoration {
-  color: white;
-  text-decoration: none;
-}
-
-#fsearch {
-  border-radius: 5px;
-  border: none;
 }
 
 /*infotext ruta ovanför footer*/
@@ -270,5 +162,9 @@ header {
     height: fit-content;
     margin-left: 20px;
     padding: 10px;
+  }
+
+  .flex-button {
+    margin-left: 0px;
   }
 }
